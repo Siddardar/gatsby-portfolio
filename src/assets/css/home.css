@@ -1,0 +1,19 @@
+.home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh
+}
+
+
+.home-text{
+    font-family: Ace Sans;
+    color:white;
+    font-size: 8vh;
+}
+
+.blinker {
+    font-size: 8vh;
+    color:white
+}
+

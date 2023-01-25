@@ -7,6 +7,12 @@
 /**
  * @type {import('gatsby').GatsbyConfig}
  */
+
 module.exports = {
-  plugins: [],
-}
+  plugins: [
+    `gatsby-plugin-styled-components`,
+    "gsap",
+    "react-multi-carousel",
+    "react-auto-typing",
+  ],
+};

@@ -1,0 +1,27 @@
+.contact-icons{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height:auto;
+    width: 2em;
+    
+    padding: 0.5em;
+
+    list-style-type: none;    
+    cursor: pointer;
+    background-color: transparent;
+
+}
+
+.contact-icon{
+    color: #8a8583;
+    padding: 0.5em;
+    transition: 0.5s ease-in-out;
+}
+
+.contact-icon:hover{
+    color:#222;
+
+}
+

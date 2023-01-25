@@ -1,0 +1,73 @@
+.about-page{
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding-bottom: 20vh;
+    padding-right: 20vh;
+    position: relative;
+
+}
+
+
+
+.about-img{
+    height:40vh;
+    transform: translate(-40px, -40px);
+    box-shadow: 10px 10px 5px 0px rgb(77, 8, 145);
+    filter:grayscale(50%);
+    transition: 0.7s ease-in-out ;
+;
+    
+}
+.about-img:hover{
+    filter: grayscale(0%);
+    
+}
+
+.frame {
+    
+    border: 7px solid rgb(196, 196, 196);
+    display: inline-block;
+    vertical-align: bottom;    
+    transition: 1s ease-in-out ;
+}
+
+.frame:hover{
+    border:7px solid whitesmoke;
+    filter: grayscale(0%);
+
+}
+
+
+
+
+
+.about-text{
+    padding-left: 10vh;
+    color: white;
+
+}
+
+.about-text h1{
+    font-family: Ace Sans;
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    padding-top: 11vh;
+    padding-bottom: 2vh;
+    letter-spacing: 0.2rem;
+}
+
+.about-text p{
+    font-family: colfer;
+    font-size: 1.7rem;
+    max-width: 50vh;
+    line-height: 2rem;
+    text-align: center;
+    padding: 2.5vh;
+    letter-spacing: 0.1rem;
+    box-shadow: inset 0 0 20px  black;
+    backdrop-filter: blur(50px);
+}
+

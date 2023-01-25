@@ -1,0 +1,99 @@
+.carosel {
+    padding-top: 15vh;
+}
+
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin:3vh;
+    margin-bottom: -0vh; /* move arrows*/
+
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    box-shadow: 4px 5px 5px 0px black;
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover{
+    box-shadow: 7px 7px 10px 0px black;
+}
+
+.card-img {
+    height:40vh;
+    min-width: 10vh;
+
+}
+
+.card-text{
+    max-width: 30vh;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    min-height: 40vh;
+   
+}
+
+.card-text h1{
+    font-family: Ace Sans;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    padding-top: 7vh;
+    color:whitesmoke;
+    text-align: center;
+}
+
+.card-text p {
+    font-family: Colfer;
+    color:white;
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    line-height: 1.7rem;
+}
+
+.carousel-btn{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+
+}
+
+.carousel-btn button{
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+    font-family: Ace Sans;
+    padding: 20px;
+    border-radius: 8px;
+
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+
+    cursor: pointer;
+    transition: 0.4s;
+
+
+    color: #FFF;
+    background-color: #8a8583;
+    box-shadow:inset 0 -8px 0 0 rgba(0,0,0,0.17);
+    transition: 0.1s;
+    text-shadow: 0px 3px rgba(0,0,0,0.17);
+}
+
+.carousel-btn button:hover{
+    box-shadow:inset 0 -6px 0 0 rgba(0,0,0,0.17);
+    text-shadow: 0px 2px rgba(0,0,0,0.17);
+}
+
+.carousel-btn button:active {
+  box-shadow:inset 0 0px 0 0 rgba(0,0,0,0.17);
+  text-shadow: 0px 0px rgba(0,0,0,0.17);
+}
+
+
+
