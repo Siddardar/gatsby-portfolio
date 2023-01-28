@@ -21,13 +21,13 @@
 }
 
 .card-img {
-    height:40vh;
-    min-width: 10vh;
+    max-height:40vh;
+    min-width: fit-content;
 
 }
 
 .card-text{
-    max-width: 30vh;
+    width: 30vh;
     padding-left: 2vh;
     padding-right: 2vh;
     min-height: 40vh;
@@ -95,5 +95,12 @@
   text-shadow: 0px 0px rgba(0,0,0,0.17);
 }
 
+@media screen and (max-height:1100px){
+
+    .card-text {
+        width: 60vh;
+    }
+
+}
 
 

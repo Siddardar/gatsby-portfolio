@@ -19,11 +19,6 @@ const contact = () => {
 
         <button className="contact-btn"> Say Hi!</button>
         <Contactbar />
-        <p className="footer">
-          <span>
-            &copy; {new Date().getFullYear()} Built & Designed by Sidd
-          </span>
-        </p>
       </main>
     </>
   );
