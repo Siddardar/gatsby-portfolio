@@ -25,3 +25,9 @@
 
 }
 
+
+@media screen and (max-height:1100px){
+    .sidebar-icons{
+        margin-left: 5vh;
+    }
+}

@@ -79,8 +79,9 @@
 @media screen and (max-height:1100px){
     .about-text p{
         width: auto;
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
+
     
 
 }

@@ -82,7 +82,7 @@ section {
   background: url("../images/ship.png");
   background-size: 220vh;
   background-repeat: initial;
-  background-position: 93vw;
+  background-position: -500px;
 }
 
 
@@ -93,6 +93,7 @@ section {
   background: url("../images/page2.png");
   background-size: 110%;
   position: relative;
+
 }
 
 
@@ -108,6 +109,13 @@ section {
   background: url("../images/page4.png");
   background-size: 200vh;
 
+}
+
+
+@media screen and (max-width:2350px){
+  .page-about {
+    background-size: 120%;
+  }
 }
 
 /*#########*/
@@ -257,7 +265,7 @@ li .normal-link:hover {
   padding: 10px;
   padding-left: 16px;
   background-color: inherit;
-  width: 6vw;
+  width: 150px;
   border: none;
   cursor: pointer;
   text-align: center;
@@ -274,7 +282,7 @@ li .normal-link:hover {
 }
 
 .contact-btn:hover{
-  box-shadow: inset 6vw 0 0 0 var(--black);
+  box-shadow: inset 150px 0 0 0 var(--black);
   color:whitesmoke;
 }
 
@@ -285,16 +293,8 @@ li .normal-link:hover {
   }
 
 
-  .contact-btn {
-    width: 8vw;
-  }
-
-  .contact-btn:hover{
-    box-shadow: inset 8vw 0 0 0 var(--black);
-  }
 
 }
-
 
 
 
