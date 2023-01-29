@@ -101,6 +101,12 @@
         width: 60vh;
     }
 
+    .card{
+        width: 40vw;
+        min-height: 25vw;
+        margin-left: 10vh;
+    }
+
 }
 
 
