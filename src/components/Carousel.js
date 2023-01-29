@@ -1,11 +1,11 @@
 import React from "react";
 import Carousel from "react-multi-carousel";
-import shuttle from "../assets/images/badminton.png";
-import chess from "../assets/images/chess.png";
-import atom from "../assets/images/atom.png";
-import sudoku from "../assets/images/sudoku.png";
-import farm from "../assets/images/farm.png";
-import maze from "../assets/images/maze.png";
+import shuttle from "../assets/images/badminton.webp";
+import chess from "../assets/images/chess.webp";
+import atom from "../assets/images/atom.webp";
+import sudoku from "../assets/images/sudoku.webp";
+import farm from "../assets/images/farm.webp";
+import maze from "../assets/images/maze.webp";
 import { Link } from "gatsby";
 import "../assets/css/carousel.css";
 
