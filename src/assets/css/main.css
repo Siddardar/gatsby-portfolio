@@ -79,7 +79,7 @@ section {
 
 .page-home {
   position: relative;
-  background: url("../images/ship.png");
+  background: url("../images/ship.webp");
   background-size: 220vh;
   background-repeat: initial;
   background-position: -500px;
@@ -90,7 +90,7 @@ section {
 
 
 .page-about {
-  background: url("../images/page2.png");
+  background: url("../images/page2.webp");
   background-size: 110%;
   position: relative;
 
@@ -98,7 +98,7 @@ section {
 
 
 .page-projects {
-  background: url("../images/page3.png");
+  background: url("../images/page3.webp");
   background-size: 110%;
   background-position: 104.5vw;
 }
@@ -106,7 +106,7 @@ section {
 
 
 .page-contact {
-  background: url("../images/page4.png");
+  background: url("../images/page4.webp");
   background-size: 200vh;
 
 }
@@ -130,6 +130,14 @@ section {
 
   .page-home{
     background-position: -300px;
+  }
+
+}
+
+@media screen and (max-height:850px){
+
+  .page-home{
+    background-position: -200px;
   }
 
 }
