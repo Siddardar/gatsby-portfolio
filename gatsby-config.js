@@ -14,5 +14,6 @@ module.exports = {
     "gsap",
     "react-multi-carousel",
     "react-auto-typing",
+    "react-toastify",
   ],
 };

@@ -56,7 +56,7 @@ const carousel = () => (
         </p>
 
         <div className="carousel-btn">
-          <Link to="../projects/chess" target="blank">
+          <Link to="../projects/chess" target={"_blank"}>
             <button>Learn more!</button>
           </Link>
         </div>
@@ -71,7 +71,9 @@ const carousel = () => (
           spotting inaccuracies and mistakes
         </p>
         <div className="carousel-btn">
-          <button>Learn more!</button>
+          <Link to="../mail">
+            <button>Learn more!</button>
+          </Link>
         </div>
       </div>
     </div>
@@ -84,7 +86,13 @@ const carousel = () => (
           leetcode.com
         </p>
         <div className="carousel-btn">
-          <button>Learn more!</button>
+          <a
+            href="https://github.com/Siddardar/sudoku"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <button>Learn more!</button>
+          </a>
         </div>
       </div>
     </div>
@@ -92,9 +100,17 @@ const carousel = () => (
       <img className="card-img" src={atom} alt="Img4" />
       <div className="card-text">
         <h1>Portfolio</h1>
-        <p>This website that I built using Gatsby.js a React-based framework</p>
+
+        <p>This website built using Gatsby.js a React-based framework</p>
+
         <div className="carousel-btn">
-          <button>Learn more!</button>
+          <a
+            href="https://github.com/Siddardar/gatsby-portfolio"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            <button>Learn more!</button>
+          </a>
         </div>
       </div>
     </div>

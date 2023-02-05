@@ -40,7 +40,7 @@
 
   /*Fixed colors*/
   --background: #113D3C;
-  --footerColor: rgb(230,221,218);
+  --footerColor: rgb(230, 221, 218);
   --restColor: #8a8583;
   --headingColor: rgb(236, 235, 235);
 
@@ -72,7 +72,7 @@ section {
   max-height: 100vh;
   scroll-behavior: smooth;
   scroll-snap-stop: always;
-  
+
 }
 
 /*Background*/
@@ -112,32 +112,32 @@ section {
 }
 
 
-@media screen and (max-width:2350px){
+@media screen and (max-width:2350px) {
   .page-about {
     background-size: 120%;
     background-position: -250px 1px;
   }
 }
 
-@media screen and (max-height:1250px){
+@media screen and (max-height:1250px) {
 
-  .page-home{
+  .page-home {
     background-position: -400px;
   }
 
 }
 
-@media screen and (max-height:1000px){
+@media screen and (max-height:1000px) {
 
-  .page-home{
+  .page-home {
     background-position: -300px;
   }
 
 }
 
-@media screen and (max-height:850px){
+@media screen and (max-height:850px) {
 
-  .page-home{
+  .page-home {
     background-position: -250px;
   }
 
@@ -151,16 +151,17 @@ section {
   height: 3.4rem;
 }
 
-nav{
+nav {
   height: auto;
   display: flex;
   align-items: center;
-  
+
   justify-content: space-between;
   padding-top: 20px;
   padding-left: 45px;
   z-index: 3;
   padding-right: 30px;
+  background-color: inherit;
 
 }
 
@@ -194,7 +195,7 @@ li .normal-link:hover {
 
 .resume-btn {
   text-decoration: none;
-  color:var(--restColor);
+  color: var(--restColor);
   font-family: Casino;
   font-size: 1.5rem;
   letter-spacing: 0.5rem;
@@ -202,7 +203,7 @@ li .normal-link:hover {
   line-height: 1.5rem;
   padding: 10px;
   padding-left: 16px;
-  background-color:whitesmoke;
+  background-color: whitesmoke;
   border: none;
   border-radius: 4px;
   transition: ease-out 0.3s;
@@ -214,8 +215,8 @@ li .normal-link:hover {
 }
 
 .resume-btn:hover {
-  color:var(--white);
-  border:2px solid black;
+  color: var(--white);
+  border: 2px solid black;
   cursor: pointer;
 
 }
@@ -230,7 +231,7 @@ li .normal-link:hover {
   opacity: 0;
   content: "";
   background-color: var(--black);
-  
+
 
 }
 
@@ -265,15 +266,15 @@ li .normal-link:hover {
 
 
 .contact-page .contact-text {
-  
+
   font-size: 2rem;
   font-family: Colfer;
   text-align: center;
   line-height: 2.5rem;
   margin-top: 9vh;
-  padding:2.1rem;
+  padding: 2.1rem;
   letter-spacing: 0.1rem;
-  box-shadow: inset 0 0 20px  var(--black);
+  box-shadow: inset 0 0 20px var(--black);
   backdrop-filter: blur(50px);
 
 
@@ -283,7 +284,7 @@ li .normal-link:hover {
 
 .contact-btn {
   text-decoration: none;
-  color:var(--restColor);
+  color: var(--restColor);
   font-family: Colfer;
   font-size: 1.7rem;
   letter-spacing: 0.5rem;
@@ -300,23 +301,24 @@ li .normal-link:hover {
   border-radius: 4px;
   box-shadow: inset 0 0 0 0 var(--black);
   transition: ease-out 0.5s;
-  outline:none;
+  outline: none;
   background-color: whitesmoke;
 
 
 }
 
-.contact-btn:hover{
+.contact-btn:hover {
   box-shadow: inset 150px 0 0 0 var(--black);
-  color:whitesmoke;
+  color: whitesmoke;
 }
 
-@media screen and (max-height:1100px){
-    
+@media screen and (max-height:1100px) {
+
   .contact-page .contact-text {
     margin-top: 7vh;
   }
-  .contact-page h1{
+
+  .contact-page h1 {
     font-size: 5rem;
     padding-top: 20vh;
   }
@@ -336,25 +338,17 @@ li .normal-link:hover {
   justify-self: flex-end;
   font-family: Ace Sans;
   font-size: 1rem;
-  color:rgb(123, 118, 155);
+  color: rgb(123, 118, 155);
   justify-self: flex-end;
   transition: color 0.5s ease-in-out;
 }
 
-.contact-page .footer:hover{
-  color:white;
+.contact-page .footer:hover {
+  color: white;
 
 }
 
-.contact-page span{
+.contact-page span {
   display: flex;
   align-self: flex-end;
 }
-
-
-
-
-
-
-
-
