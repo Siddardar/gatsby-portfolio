@@ -15,5 +15,6 @@ module.exports = {
     "react-multi-carousel",
     "react-auto-typing",
     "react-toastify",
+    "gatsby-plugin-react-helmet",
   ],
 };

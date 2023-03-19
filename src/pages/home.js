@@ -9,6 +9,7 @@ const home = () => {
     <>
       <Navbar />
       <div className="home-page">
+        <title> Sidd's Website </title>
         <AutoTyping
           className="home-text"
           active={true} // <boolean>

@@ -51,12 +51,13 @@ const ContactUs = () => {
   return (
     <>
       <div className="contact-wrapper">
+        <title> Contact </title>
         <Navbar />
         <div class="contact-container">
           <div class="contact-box">
             <div class="left"></div>
             <div class="right">
-              <h2>Contact Us</h2>
+              <h2>Contact Me</h2>
               <form ref={form} onSubmit={sendEmail}>
                 <input
                   type="text"
