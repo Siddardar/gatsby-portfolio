@@ -1,7 +1,7 @@
-.about-page{
-    height:100vh;
+.about-page {
+    height: 100vh;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     padding-bottom: 20vh;
     padding-right: 20vh;
@@ -11,31 +11,32 @@
 
 
 
-.about-img{
-    height:40vh;
+.about-img {
+    height: 40vh;
     width: auto;
     transform: translate(-40px, -40px);
     box-shadow: 10px 10px 5px 0px rgb(77, 8, 145);
-    filter:grayscale(50%);
-    transition: 0.7s ease-in-out ;
-;
-    
+    filter: grayscale(50%);
+    transition: 0.7s ease-in-out;
+    ;
+
 }
-.about-img:hover{
+
+.about-img:hover {
     filter: grayscale(0%);
-    
+
 }
 
 .frame {
-    
+
     border: 7px solid rgb(196, 196, 196);
     display: inline-block;
-    vertical-align: bottom;    
-    transition: 1s ease-in-out ;
+    vertical-align: bottom;
+    transition: 1s ease-in-out;
 }
 
-.frame:hover{
-    border:7px solid whitesmoke;
+.frame:hover {
+    border: 7px solid whitesmoke;
     filter: grayscale(0%);
 
 }
@@ -44,7 +45,7 @@
 
 
 
-.about-text{
+.about-text {
     padding-left: 10vh;
     color: white;
     position: relative;
@@ -53,7 +54,7 @@
 
 }
 
-.about-text h1{
+.about-text h1 {
     font-family: Ace Sans;
     font-size: 5vh;
     display: flex;
@@ -63,25 +64,25 @@
     letter-spacing: 0.2rem;
 }
 
-.about-text p{
+.about-text p {
     font-family: colfer;
     font-size: 1.7rem;
-    height:fit-content;
+    height: fit-content;
     width: 50vh;
     line-height: 2rem;
     text-align: center;
     padding: 2.5vh;
     letter-spacing: 0.1rem;
-    box-shadow: inset 0 0 20px  black;
+    box-shadow: inset 0 0 20px black;
     backdrop-filter: blur(50px);
 }
 
-@media screen and (max-height:1100px){
-    .about-text p{
+@media screen and (max-height:1100px) {
+    .about-text p {
         width: auto;
         font-size: 1.5rem;
     }
 
-    
+
 
 }

@@ -1,99 +1,48 @@
-<!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
-<p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
 <h1 align="center">
-  Gatsby's hello-world starter
+  Portfolio v1
 </h1>
+<p>&nbsp;</p>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+# Overview
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+This is a website that I made that serves as a portfolio of all the projects that I have done so far. It was built using [Gatsby](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli) a React.js based framework. I chose Gatsby primarily due to the ability of being able to deploy the website directly through them as well as their advertised faster load and build speeds.
 
-## 🚀 Quick start
+As all of my previous projects were mainly focused on writing scripts to automate mundane everyday tasks or solving Leetcode questions, it was definetly a challenge to dive into a frontend project which involed both designing a website that would look reasonably visually pleasing and actually implementing it. Although I had some previous experience with HTML and CSS, it was not to this extent and finishing this project was definetly a lot of fun and I certainly learned a lot.
 
-1.  **Create a Gatsby site.**
+<p>&nbsp;</p>
 
-    Use the Gatsby CLI ([install instructions](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli)) to create a new site, specifying the hello-world starter.
+## Key Takeaways
 
-    ```shell
-    # create a new Gatsby site using the hello-world starter
-    gatsby new my-hello-world-starter https://github.com/gatsbyjs/gatsby-starter-hello-world
-    ```
+- **Have a design in mind**  
+Having a rough sketch of what I wanted my website would look like beforehand would have definetly helped saved hours of changing the layout and pages around to what I wanted.
+<p>&nbsp;</p>
 
-1.  **Start developing.**
+- **Avoid one CSS file**  
+When I started, I styled all the components and pages on my website from one `main.css` file and things got messy really quickly as my website got bigger and more complicated. I found myself scrolling through 100s of lines of CSS to change the style of one component and fixing conficting class names.
+<p>&nbsp;</p>
 
-    Navigate into your new site’s directory and start it up.
+- **A website is naturally Responsive**  
+Responsiveness is not something that even crossed my mind when I created the first iteration of my website. Only upon viewing the website on my mom's laptop, did I realize that all of my components were squished together and it did not look at all similar to what I was seeing on my moniter.  
+Learning that I was the one making the website unresponsive by adding restrictive CSS, such as fixing the size of an image to a certain number of pixels, really helped me make the site more functional across a variety of screens.
+<p>&nbsp;</p>
 
-    ```shell
-    cd my-hello-world-starter/
-    gatsby develop
-    ```
+## Things to improve
 
-1.  **Open the source code and start editing!**
+- **Load times**  
+Although the [Lighthouse Report](https://build-c8d14efc-8ab0-43ce-ae1e-4ce9a223a1e4.gtsb.io/reports/lighthouse/index.html) provided by Gatsby puts the time for the site to be fully interactive to 4.1 seconds, I noticed that on older machines and with a cleared browser cache, the site takes significantly longer to load.  
+While I am not entirely sure on how to remedy this at the moment, I am determined to find out what I can do to make it better.
+<p>&nbsp;</p>
 
-    Your site is now running at `http://localhost:8000`!
+- **Extend Responsiveness**  
+Currently, while the site works reasonably well across the most commonly found laptop and desktop screens, it breaks down when viewing it on screens smaller than `1360x800px`.  
+That's definetly something that I would like to remedy moving forward and make it more accesible to smaller laptop screens and even mobile phones.
+<p>&nbsp;</p>
 
-    Note: You'll also see a second link: `http://localhost:8000/___graphql`. This is a tool you can use to experiment with querying your data. Learn more about using this tool in the [Gatsby Tutorial](https://www.gatsbyjs.com/docs/tutorial/part-4/#use-graphiql-to-explore-the-data-layer-and-write-graphql-queries).
+- **Add a loading screen**  
+While adding a loading screen to a website does not seem that complicated, the way the site is structed with its smooth scrolling feature makes it way harder than it needs to be. To solve this I would probably need to rework the entire site and implement the scrolling feature in some other way.
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 
-    Open the `my-hello-world-starter` directory in your code editor of choice and edit `src/pages/index.js`. Save your changes and the browser will update in real time!
+## Feedback
 
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-## 🧐 What's inside?
-
-A quick look at the top-level files and directories you'll see in a typical Gatsby project.
-
-    .
-    ├── node_modules
-    ├── src
-    ├── .gitignore
-    ├── gatsby-browser.js
-    ├── gatsby-config.js
-    ├── gatsby-node.js
-    ├── gatsby-ssr.js
-    ├── LICENSE
-    ├── package.json
-    └── README.md
-
-1.  **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
-
-1.  **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
-
-1.  **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
-
-1.  **`gatsby-browser.js`**: This file is where Gatsby expects to find any usage of the [Gatsby browser APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-browser/) (if any). These allow customization/extension of default Gatsby settings affecting the browser.
-
-1.  **`gatsby-config.js`**: This is the main configuration file for a Gatsby site. This is where you can specify information about your site (metadata) like the site title and description, which Gatsby plugins you’d like to include, etc. (Check out the [config docs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-config/) for more detail).
-
-1.  **`gatsby-node.js`**: This file is where Gatsby expects to find any usage of the [Gatsby Node APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-node/) (if any). These allow customization/extension of default Gatsby settings affecting pieces of the site build process.
-
-1.  **`gatsby-ssr.js`**: This file is where Gatsby expects to find any usage of the [Gatsby server-side rendering APIs](https://www.gatsbyjs.com/docs/reference/config-files/gatsby-ssr/) (if any). These allow customization of default Gatsby settings affecting server-side rendering.
-
-1.  **`LICENSE`**: This Gatsby starter is licensed under the 0BSD license. This means that you can see this file as a placeholder and replace it with your own license.
-
-1.  **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
-
-1.  **`README.md`**: A text file containing useful reference information about your project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.com/). Here are some places to start:
-
-- **For most developers, we recommend starting with our [in-depth tutorial for creating a site with Gatsby](https://www.gatsbyjs.com/tutorial/).** It starts with zero assumptions about your level of ability and walks through every step of the process.
-
-- **To dive straight into code samples, head [to our documentation](https://www.gatsbyjs.com/docs/).** In particular, check out the _Guides_, _API Reference_, and _Advanced Tutorials_ sections in the sidebar.
-
-## 💫 Deploy
-
-[Build, Deploy, and Host On The Only Cloud Built For Gatsby](https://www.gatsbyjs.com/products/cloud/)
-
-Gatsby Cloud is an end-to-end cloud platform specifically built for the Gatsby framework that combines a modern developer experience with an optimized, global edge network.
-
-<!-- AUTO-GENERATED-CONTENT:END -->
+As always with any of my projects, feedback and help is always welcome. You can reach me by sending me an [email](mailto://sr.sanagala@outlook.com) or by sending me a message through my website. 😊

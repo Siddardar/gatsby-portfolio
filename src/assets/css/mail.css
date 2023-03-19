@@ -48,6 +48,7 @@
     background: url("../images/contact.webp") no-repeat center;
     background-size: cover;
     height: 100%;
+    transform: scaleX(-1);
 }
 
 .right {
