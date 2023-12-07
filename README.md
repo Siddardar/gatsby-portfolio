@@ -1,8 +1,11 @@
 <h1 align="center">
-  Portfolio v1
+  Portfolio v1. 
 </h1>
 <p>&nbsp;</p>
-
+<h2 align="center">
+  [Live Demo] (https://6528a9224b271a4caa634eea--gongyiyoomeeandsidd.netlify.app/) 
+</h2>
+<p>&nbsp;</p>
 # Overview
 
 This is a website that I made that serves as a portfolio of all the projects that I have done so far. It was built using [Gatsby](https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli) a React.js based framework. I chose Gatsby primarily due to the ability of being able to deploy the website directly through them as well as their advertised faster load and build speeds.
