@@ -2,9 +2,9 @@
   Portfolio v1. 
 </h1>
 <p>&nbsp;</p>
-<h2 align="center">
-[Live Demo]([https://www.gatsbyjs.com/docs/tutorial/part-0/#gatsby-cli](https://6528a9224b271a4caa634eea--gongyiyoomeeandsidd.netlify.app/))
-</h2>
+
+[Live Demo](https://6528a9224b271a4caa634eea--gongyiyoomeeandsidd.netlify.app/)
+
 <p>&nbsp;</p>
 # Overview
 
