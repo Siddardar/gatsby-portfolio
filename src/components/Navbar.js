@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import React from "react";
 import logo from "../assets/images/logov8.png";
-import resume from "../assets/others/resume.pdf";
+import resume from "../assets/others/Resume.pdf";
 import "../assets/css/main.css";
 
 const Navbar = () => {
